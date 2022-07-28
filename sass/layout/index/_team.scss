@@ -1,0 +1,35 @@
+/* Section team */
+.section-team {
+  background-color: var(--bcg-color-pink);
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__item {
+  background-color: var(--bcg-color-white);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.team__block {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team__title {
+  margin-bottom: 10px;
+
+  color: var(--title-text-color);
+
+  @include font(16px, 500, 1.19, 0.03em);
+}
+
+.team__position {
+  @include font(16px, 400, 1.19, 0.03em);
+  margin-bottom: 16px;
+}
